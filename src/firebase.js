@@ -4,7 +4,7 @@ import { getFirestore, collection, getDocs } from 'firebase/firestore';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBCk574ybU6708hj__ziB3FwbeSGpQ7jSU",
+  apiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
   authDomain: "chrome-ranger-429012-a2.firebaseapp.com",
   projectId: "chrome-ranger-429012-a2",
   storageBucket: "chrome-ranger-429012-a2.appspot.com",
